@@ -1,3 +1,8 @@
+//
+// CommonJS (node, module.exports, require).
+// ES Modules (import, export).
+//
+
 const { add1 } = require ('./add1')
 
 describe('add1()', () => {
