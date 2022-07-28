@@ -3,7 +3,7 @@
 // ES Modules (import, export).
 //
 
-const { add1 } = require ('./add1')
+const { add1 } = require('./add1');
 
 describe('add1()', () => {
  test('it should return 1', () => {
@@ -13,4 +13,6 @@ describe('add1()', () => {
   test('it should return -1', () => {
     expect(add1(-2)).toEqual(-1);
   })
-})
+
+  
+});
