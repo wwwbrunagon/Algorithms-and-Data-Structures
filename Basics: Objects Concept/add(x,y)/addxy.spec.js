@@ -14,7 +14,7 @@ describe('add(x, y)', () => {
   });
 
   test('should return -2 by adding -1 and -1', () => {
-    expect(add(-1, -1)).toEqual(-2)
+    expect(add(-1, -1)).toEqual(-2);
   });
 
   test('should return 0 by addin -1 and +1', () => {
@@ -23,7 +23,6 @@ describe('add(x, y)', () => {
 
    test('should return 0 by addin 1 and 11', () => {
     expect(add(1, -1 )).toEqual(0)
-  });
-  
+  });  
   
 });

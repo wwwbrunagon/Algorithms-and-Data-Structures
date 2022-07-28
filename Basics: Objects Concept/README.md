@@ -27,7 +27,8 @@ Write function that checks whether a number is even.
 
 - isEven(2) -> true
 - isEven(-3) -> false
-- isOdd(x)
+---
+# isOdd(x)
 
 Write function that checks whether a number is even.
 
