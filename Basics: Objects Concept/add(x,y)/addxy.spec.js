@@ -23,6 +23,5 @@ describe('add(x, y)', () => {
 
    test('should return 0 by addin 1 and 11', () => {
     expect(add(1, -1 )).toEqual(0)
-  });  
-  
+  });    
 });
