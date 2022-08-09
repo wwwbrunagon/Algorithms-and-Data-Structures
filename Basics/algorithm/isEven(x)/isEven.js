@@ -6,4 +6,4 @@ function isEven(num){
   }
 }
 
-module.export = { isEven }
+module.exports = { isEven }
