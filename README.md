@@ -1,8 +1,9 @@
 ## Running Tests
 
-<p> `$ npm install --save-dev jest` <br>
-`$ npx jest path/to/file.spec.js` <br>
-`$ npx jest basic-1/add.spec.js` <br>
+<p> 
+$ npm install --save-dev jest <br>
+$ npx jest path/to/file.spec.js <br>
+$ npx jest basic-1/add.spec.js <br>
 </p>
 
 ## JavaScript has types
