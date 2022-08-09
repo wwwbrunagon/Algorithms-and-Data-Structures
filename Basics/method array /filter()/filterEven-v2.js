@@ -6,7 +6,7 @@ const { isEven } = require('../../algorithm/isEven(x)/isEven');
  * Procedural version.
  *
  * @param {number[]} xs
- * @param {number[]}
+ * @return {number[]}
  */
 
 function filterEven(xs) {

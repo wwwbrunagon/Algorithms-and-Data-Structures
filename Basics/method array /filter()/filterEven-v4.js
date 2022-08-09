@@ -1,5 +1,4 @@
 const {isEven } = require('../../algorithm/isEven(x)/isEven');
-
 /**
  * Returns an array of even numbers.
  *
@@ -9,6 +8,7 @@ const {isEven } = require('../../algorithm/isEven(x)/isEven');
  * @param {number[]} xs
  * @param {number[]}
  */
+
 function filterEven(xs) {
     const evens = xs.filter(function checkIfEven(x) {
         return x % 2 === 0;

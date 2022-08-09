@@ -4,7 +4,7 @@
  * Procedural version.
  *
  * @param {number[]} xs
- * @param {number[]}
+ * @return {number[]}
  */
 
 function filterEven(xs) {
