@@ -1,6 +1,6 @@
 ## Running Tests
 
-```js
+```
 $ npm install --save-dev jest 
 $ npx jest path/to/file.spec.js 
 $ npx jest basic-1/add.spec.js 
