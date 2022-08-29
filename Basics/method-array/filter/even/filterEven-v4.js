@@ -1,5 +1,4 @@
-const {isEven } = require('../../algorithm/isEven(x)/isEven');
-
+const {isEven } = require('../../../algorithm/isEven(x)/isEven');
 /**
  * Returns an array of even numbers.
  *
@@ -7,7 +6,7 @@ const {isEven } = require('../../algorithm/isEven(x)/isEven');
  * predicate function.
  *
  * @param {number[]} xs
- * @retunr {number[]}
+ * @param {number[]}
  */
 
 function filterEven(xs) {

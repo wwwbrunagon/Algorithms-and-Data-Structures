@@ -6,4 +6,4 @@ function isOdd(num){
   }
 }
 
-module.export = { isOdd }
+module.exports = { isOdd }

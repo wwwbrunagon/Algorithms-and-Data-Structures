@@ -1,4 +1,4 @@
-const { isEven } = require('../../algorithm/isEven(x)/isEven');
+const { isEven } = require('../../../algorithm/isEven(x)/isEven');
 
 /**
  * Returns an array of even numbers.
