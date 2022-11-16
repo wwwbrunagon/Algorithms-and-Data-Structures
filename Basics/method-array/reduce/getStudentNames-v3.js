@@ -6,7 +6,8 @@
  * @return {Object}
  */
 function addStudentNameToArray(ListOfNames, student) {
-    ListOfNames.push(student.name);
+    const {name} = student;
+    ListOfNames.push(name);
     return ListOfNames;
 }
 
