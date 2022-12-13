@@ -4,10 +4,10 @@ const arr = [-1, -1, 0, 1, 1];
 function countFrequencies(numbers) {
     const frequencies = [0, 0, 0];
 
-    for (let i = 0; i < numbers.length; i++) {
-        if (numbers[i] < 0)
+    for (const item of numbers) {
+        if (item < 0)
             frequencies[0]++
-        else if (numbers[i] > 0)
+        else if (item > 0)
             frequencies[2]++
         else frequencies[1]++
     }
