@@ -1,5 +1,5 @@
 import { it } from 'node:test';
-import { miniMaxSum } from './miniMaxSum.js'
+import { miniMaxSum } from './miniMaxSum-v1.js'
 
 
 describe('miniMaxSum()', () => {
