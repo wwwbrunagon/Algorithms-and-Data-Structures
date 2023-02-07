@@ -1,5 +1,5 @@
 /**
- * Finds the indices of two values in `flavors` that when added
+ * Finds the distincts indices of two values in `flavors` that when added
  * together produce `money`.
  *
  * ASSUME: There is always a correct, single solution.
@@ -9,19 +9,18 @@
  * @param {Array<number>} flavorPrices
  * @returns {[number, number]}
  */
-function icecreamParlor(money, flavorPrices) {
-    debugger;
-    var indices = [-1, -1],
+function iceCreamParlor(money, flavorPrices) {
+    let indices = [-1, -1],
         len = flavorPrices.length,
         i,
         j;
-  
-    outerLoop:
+
+        outerLoop:
     for (i = 0; i < len; ++i) {
-      for (j = 0; j < len; ++j) {
+      for (j = i + 1; j < len; ++j) {
         if (flavorPrices[i] + flavorPrices[j] === money) {
-          indices[0] = i;
-          indices[1] = j;
+          indices[0] = i + 1;
+          indices[1] = j + 1;
           break outerLoop;
         }
       }
@@ -29,9 +28,9 @@ function icecreamParlor(money, flavorPrices) {
   
     return indices;
   }
-  
-  icecreamParlor(6, [1, 3, 4, 5, 6]);
+
+iceCreamParlor(6, [1, 3, 4, 5, 6]);
  
   
-  export { icecreamParlor };
+  export { iceCreamParlor };
   
