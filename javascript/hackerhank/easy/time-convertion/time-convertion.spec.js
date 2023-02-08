@@ -1,4 +1,4 @@
-const { timeConvert } = require('./timeConvertion')
+const { timeConvert } = require('./time-convertion')
 
 
     describe('12 AM :: midnight', () => {

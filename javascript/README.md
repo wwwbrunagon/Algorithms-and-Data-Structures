@@ -1,3 +1,13 @@
+
+##  TDD 
+
+- design tool
+- documentation
+- testing 
+- regression testing
+
+
+
 ## Running Tests
 
 ```
