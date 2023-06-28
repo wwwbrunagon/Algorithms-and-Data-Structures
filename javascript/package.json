@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' npx jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watch",
     "file": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' node"
   },
   "keywords": [],
