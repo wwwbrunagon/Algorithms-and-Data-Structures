@@ -1,4 +1,4 @@
-## birthday-cake-candles :: HackerRank
+## grading-students :: HackerRank
 
 [grading-students :: HackerRank](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true)
 
