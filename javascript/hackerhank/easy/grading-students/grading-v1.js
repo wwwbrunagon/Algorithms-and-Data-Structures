@@ -1,5 +1,14 @@
-function gradeStudents(grade) {
-    return 37
-}
+function round(grade) {
+    return grade;
+};
 
-export { gradeStudents }
+
+function gradeStudents(grades) {
+    const result = [];
+    for (let i = 0; i < grades.length; ++i) {
+        const grade = grades[i];        
+    }
+    return grades
+};
+
+export { gradeStudents, round }
