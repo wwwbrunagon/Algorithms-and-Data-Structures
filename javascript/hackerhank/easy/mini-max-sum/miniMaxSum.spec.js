@@ -10,8 +10,8 @@ describe('miniMaxSum()', () => {
     });
 
     expect(miniMaxSum([1, 2, 5, 7, 9])).toEqual({
-        min: 16,
-        max: 24,
+        min: 15,
+        max: 23,
     });
 
     it("should work with unsorted arrays", () => {
